@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    place-items: center;
+    // background-image: url('../../../images/pattern-hills.svg');
+    // background-size: cover;
+    //  background-repeat: no-repeat;
+    margin-top: 10%;
+    
+
+    
+
+    &__socials{
+        display: flex;
+        align-content: space-between;
+        &-item{
+            padding: 0 2em;
+        }
+    }
+}

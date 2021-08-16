@@ -1,2 +1,2 @@
-"use strict";
+"use strict";var domDays=document.querySelector(".container-timer__card-number--days"),domHours=document.querySelector(".container-timer__card-number--hours"),domMinutes=document.querySelector(".container-timer__card-number--minutes"),domSeconds=document.querySelector(".container-timer__card-number--seconds"),startingDays=15,time=24*startingDays*60*60;function countdown(){var e=Math.floor(time/60/60/24),t=Math.floor(time/60/60%24),n=Math.floor(time/60%60),r=time%60;t=t<10?"0"+t:t,n=n<10?"0"+n:n,r=r<10?"0"+r:r,domDays.innerHTML=e,domHours.innerHTML=t,domMinutes.innerHTML=n,domSeconds.innerHTML=r,time=--time<0?0:time}countdown(),setInterval(countdown,1e3);
 //# sourceMappingURL=countdown.js.map

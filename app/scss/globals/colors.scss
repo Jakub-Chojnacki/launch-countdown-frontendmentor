@@ -6,6 +6,8 @@ $Soft__red: hsl(345, 95%, 68%);
 //Neutral
 
  $White: hsl(0, 0%, 100%);
- $Blue--dark-desat: hsl(236, 21%, 26%);
- $Blue--vdark: hsl(235, 16%, 14%);
- $Blue--blacker: hsl(234, 17%, 12%);
+ $Blue--dark-desat: hsl(236, 21%, 26%); // card-bottom
+ $Blue--vdark: hsl(235, 16%, 14%); //card-up
+ $Blue--blacker: hsl(234, 17%, 12%); // body
+ $blue--card : #2D2C44;
+ 
