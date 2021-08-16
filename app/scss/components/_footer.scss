@@ -1,19 +1,31 @@
+@use '../util/breakpoints.scss' as *;
 .footer{
-    display: flex;
-    place-items: center;
-    // background-image: url('../../../images/pattern-hills.svg');
-    // background-size: cover;
-    //  background-repeat: no-repeat;
-    margin-top: 10%;
-    
-
-    
+    background-image: url('../../../images/pattern-hills.svg');
+    background-size: cover;
+     background-repeat: no-repeat;
+     background-position:  right ;
+     padding: 8vh 0;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
 
     &__socials{
         display: flex;
-        align-content: space-between;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(2em);
         &-item{
             padding: 0 2em;
+            @media only screen and (min-width:800px) {
+                &:hover{
+                    filter: invert(48%) sepia(27%) saturate(1104%) hue-rotate(295deg) brightness(97%) contrast(89%);
+                
+            }
+            }
+            
+           
+            
         }
     }
 }

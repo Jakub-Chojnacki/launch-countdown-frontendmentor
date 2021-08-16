@@ -7,6 +7,7 @@
       
     }
     &__card {
+        
         padding: 0 1em;
         
 
@@ -17,6 +18,11 @@
             z-index: 5;
             border-radius: 10px;
             position: relative;
+            @media only screen and (min-width:800px){
+               
+                font-size: 5em;
+
+            }
             &::before{
                 z-index: -1;
                 position: absolute;
@@ -46,9 +52,12 @@
         &-suffix{
             margin-top: 2em;
             text-transform: uppercase;
-            font-size: 0.5rem;
+            font-size: 0.5em;
             letter-spacing: 0.3rem;
             color: $Grayish__blue;
+            @media only screen and (min-width:800px){
+                font-size: 1em;
+            }
         }
     }
 }
